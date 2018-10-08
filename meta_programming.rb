@@ -1,5 +1,4 @@
 class UserRole
-
 	attr_accessor :role
 	
 	def initialize(role)
