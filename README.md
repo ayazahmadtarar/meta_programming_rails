@@ -35,9 +35,9 @@ class UserMetaRole
 	end
 	
 	['admin_user', 'sales_user', 'crm_user'].each do |user_role|
-    define_method "#{user_role}?" do
-        user_role == user_role
-    end
+    		define_method "#{user_role}?" do
+        		user_role == user_role
+   		end
 	end
 end
 
